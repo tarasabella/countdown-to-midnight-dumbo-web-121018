@@ -3,7 +3,7 @@
 def countdown(seconds_to_midnight)
   while seconds_to_midnight > 0 
   puts "#{seconds_to_midnight} SECOND(S)!"
-  x -= 1 
+  seconds_to_midnight -= 1 
    return "HAPPY NEW YEAR!"
 end
   
